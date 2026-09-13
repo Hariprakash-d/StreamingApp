@@ -26,11 +26,11 @@ pipeline {
             steps {
                 script {
                     def services = [
-                        'streaming-auth': './backend/authService',
-                        'streaming-stream': './backend/streamingService',
-                        'streaming-admin': './backend/adminService',
-                        'streaming-chat': './backend/chatService',
-                        'streaming-frontend': './frontend'
+                        'streamingapp-auth': './backend/authService',
+                        'streamingapp-stream': './backend/streamingService',
+                        'streamingapp-admin': './backend/adminService',
+                        'streamingapp-chat': './backend/chatService',
+                        'streamingapp-frontend': './frontend'
                     ]
                     
                     services.each { name, path ->
