@@ -27,7 +27,7 @@ pipeline {
                 script {
                     def services = [
                         'streamingapp-auth': './backend/authService',
-                        'streamingapp-stream': './backend/streamingService',
+                        'streamingapp-streaming': './backend/streamingService',
                         'streamingapp-admin': './backend/adminService',
                         'streamingapp-chat': './backend/chatService',
                         'streamingapp-frontend': './frontend'
